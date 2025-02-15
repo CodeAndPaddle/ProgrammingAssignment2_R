@@ -31,5 +31,7 @@ cacheSolve <- function(x, ...) {
         inverse <- solve(data, ...)
         x$setInverse(inverse)
         inverse
+        ## test PUSH from VS code
+        print("test")
 }
 
